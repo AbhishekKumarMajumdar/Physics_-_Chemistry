@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8912621498812090933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797074630200082616}
+  - component: {fileID: 6028837691852531282}
+  - component: {fileID: 6655930807422018173}
+  - component: {fileID: 505718758723249036}
+  - component: {fileID: 3597036420628334043}
+  - component: {fileID: 3275040833188835688}
+  - component: {fileID: 5183931995959303319}
+  - component: {fileID: 8208273231042760615}
+  - component: {fileID: 7218531343177372468}
+  - component: {fileID: 7125033575755744325}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1797074630200082616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.007398993, y: 0.0089834, z: 0.001151029}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6028837691852531282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5dda816e2ca3604f895053ea4c7c3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  toggleButton: {fileID: 0}
+--- !u!114 &6655930807422018173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740cb6b21a443a74f8e32507b273aa87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4197622381278145641, guid: 1a0034498334f28438de8378491f5dad, type: 3}
+  toggleButton: {fileID: 0}
+--- !u!114 &505718758723249036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadd42d48c7b1ad4d8cf3e083716479a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 0}
+  scriptToToggle: {fileID: 0}
+  toggleButton: {fileID: 0}
+--- !u!114 &3597036420628334043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadd42d48c7b1ad4d8cf3e083716479a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 0}
+  scriptToToggle: {fileID: 0}
+  toggleButton: {fileID: 0}
+--- !u!114 &3275040833188835688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5dda816e2ca3604f895053ea4c7c3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  toggleButton: {fileID: 0}
+--- !u!114 &5183931995959303319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4754b61924a8fba47be43f1467af4bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  openButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  closeButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &8208273231042760615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bccabc7fe55fc94eaba4e7102e9a4e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainText: {fileID: 0}
+  subText: {fileID: 0}
+  buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  textDataList:
+  - mainText: Learning
+    subText: The human brain is the central organ of the nervous system, responsible
+      for processing sensory information, controlling movement, and regulating bodily
+      functions. It consists of approximately 86 billion neurons and is divided into
+      regions that handle different functions, such as the cerebrum for cognition
+      and the cerebellum for coordination. The brain plays a crucial role in higher
+      cognitive processes, including memory, reasoning, and emotion, operating through
+      intricate networks of neural connections.
+  - mainText: Summery
+    subText: The brain, housed within the skull, is composed of various interconnected
+      regions that work together to regulate body functions, process external stimuli,
+      and enable complex behaviors. It consists of billions of neurons and neural
+      networks that communicate to control everything from basic survival functions
+      to higher-order thinking. The brain's structure is divided into specialized
+      areas, each with distinct roles in maintaining homeostasis, processing sensory
+      data, and executing voluntary and involuntary actions.
+--- !u!114 &7218531343177372468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bccabc7fe55fc94eaba4e7102e9a4e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainText: {fileID: 0}
+  subText: {fileID: 0}
+  buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  textDataList:
+  - mainText: Brain
+    subText: Refers to the entire central organ of the nervous system, including
+      the cerebrum, cerebellum, brainstem, and limbic structures. The brain coordinates
+      all body functions, from basic life-supporting processes to complex reasoning,
+      and serves as the control center for emotions, thoughts, and movements.
+  - mainText: Cerebrum
+    subText: The cerebrum is the largest part of the brain, responsible for higher
+      cognitive functions such as thought, memory, and sensory processing. It is
+      divided into two hemispheres and further split into lobes, each specialized
+      for different tasks like language, vision, and motor control.
+  - mainText: Cerebellum
+    subText: "ocated below the cerebrum at the back of the brain, the cerebellum
+      is responsible for fine-tuning voluntary movements and maintaining balance
+      and posture. It plays a crucial role in motor learning and coordination, ensuring
+      that movements are smooth and precise. The cerebellum works continuously to
+      adjust and refine motor activity, responding to sensory information about body
+      position. It\u2019s essential for activities requiring coordination, like walking,
+      playing instruments, and sports."
+  - mainText: Brainstem
+    subText: 'The brainstem connects the brain to the spinal cord and regulates many
+      automatic functions necessary for survival, such as breathing, heart rate,
+      and digestion. It consists of three main parts: the midbrain, pons, and medulla
+      oblongata, each involved in various basic bodily functions. By serving as a
+      conduit for information traveling between the brain and the rest of the body,
+      it plays a critical role in motor and sensory pathways. Damage to the brainstem
+      can severely impact survival, as it controls involuntary functions.'
+  - mainText: Thalamus
+    subText: The thalamus acts as a central relay station for transmitting sensory
+      and motor signals to the cerebral cortex. Located deep within the brain, it
+      receives input from various senses (except smell) and directs it to the appropriate
+      brain regions for processing. It also plays a role in regulating consciousness,
+      sleep, and alertness by filtering and prioritizing information. The thalamus
+      thus acts as a gateway for sensory information, ensuring that the brain processes
+      relevant stimuli.
+  - mainText: Hypothalamus
+    subText: The hypothalamus is a small yet vital part of the brain responsible
+      for regulating essential bodily functions such as hunger, thirst, sleep, body
+      temperature, and emotional responses. It maintains homeostasis by communicating
+      with the endocrine system, particularly the pituitary gland, to control hormone
+      release. Through these hormones, it affects everything from metabolism to stress
+      responses, linking the nervous system to the endocrine system. This regulation
+      helps keep the body balanced and responsive to internal and external changes.
+  - mainText: Amygdaloid Body (Amygdala)
+    subText: The amygdala is involved in processing emotions, especially those related
+      to survival, such as fear and aggression. It is a key part of the limbic system
+      and is crucial for forming emotional memories and associating emotions with
+      experiences. The amygdala enables quick responses to threats by influencing
+      behavior and physiological reactions. It also contributes to decision-making
+      processes where emotions are involved, linking emotional significance to sensory
+      information.
+  - mainText: Hippocampus
+    subText: The hippocampus is crucial for forming and retrieving long-term memories,
+      as well as spatial navigation. Located in the temporal lobe, it helps in transferring
+      short-term memories to long-term storage and is essential for learning and
+      memory consolidation. It also enables spatial orientation, helping individuals
+      remember places and navigate environments. The hippocampus is particularly
+      important in declarative memory, which involves facts and events.
+  - mainText: Basal Ganglia
+    subText: The basal ganglia are a group of nuclei located deep within the brain,
+      involved in regulating movement and procedural learning. They help initiate
+      and control movements, contributing to smooth, coordinated voluntary actions.
+      In addition to motor control, the basal ganglia are involved in forming habits
+      and routines, as well as certain cognitive and emotional functions. Malfunctions
+      in this area are associated with movement disorders such as Parkinson's disease.
+  - mainText: Corpus Callosum
+    subText: The corpus callosum is a thick band of nerve fibers that connects the
+      left and right hemispheres of the cerebrum, facilitating communication between
+      the two sides. This connection enables the hemispheres to work together, coordinating
+      complex functions like speech, movement, and sensory processing. It allows
+      information from one hemisphere to be shared with the other, ensuring unified
+      responses and balanced control of the body. The corpus callosum is essential
+      for integrating cognitive and motor functions across the brain.
+--- !u!114 &7125033575755744325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912621498812090933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5dda816e2ca3604f895053ea4c7c3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  toggleButton: {fileID: 0}
