@@ -1,0 +1,277 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.19f1 (302b264628f9) revision 3156774'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7883 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Rahul B N/Documents/GitHub/Physics_-_Chemistry/OscodePhyChem
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55104
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Rahul B N/Documents/GitHub/Physics_-_Chemistry/OscodePhyChem
+C:/Users/Rahul B N/Documents/GitHub/Physics_-_Chemistry/OscodePhyChem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6472]  Target information:
+
+Player connection [6472]  * "[IP] 192.168.21.1 [Port] 0 [Flags] 2 [Guid] 4027026362 [EditorId] 4027026362 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CJDQM4SK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6472]  * "[IP] 192.168.28.1 [Port] 0 [Flags] 2 [Guid] 4027026362 [EditorId] 4027026362 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CJDQM4SK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6472]  * "[IP] 192.168.0.140 [Port] 0 [Flags] 2 [Guid] 4027026362 [EditorId] 4027026362 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CJDQM4SK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6472]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 4027026362 [EditorId] 4027026362 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CJDQM4SK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6472] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6472] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.19f1 (302b264628f9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rahul B N/Documents/GitHub/Physics_-_Chemistry/OscodePhyChem/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004430 seconds.
+- Loaded All Assemblies, in 12.770 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 443 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.047 seconds
+Domain Reload Profiling: 13815ms
+	BeginReloadAssembly (10214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (653ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1816ms)
+		LoadAssemblies (10216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1806ms)
+			TypeCache.Refresh (1803ms)
+				TypeCache.ScanAssembly (1473ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1048ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (996ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (575ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.738 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 8460ms
+	BeginReloadAssembly (3373ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (4218ms)
+		LoadAssemblies (3933ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (464ms)
+			TypeCache.Refresh (439ms)
+				TypeCache.ScanAssembly (426ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1413 unused Assets / (477.2 KB). Loaded Objects now: 2032.
+Memory consumption went from 96.3 MB to 95.9 MB.
+Total: 6.943700 ms (FindLiveObjects: 0.337200 ms CreateObjectMapping: 0.096000 ms MarkObjects: 5.719600 ms  DeleteObjects: 0.785100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1585.896548 seconds.
+  path: Assets/3D Model/Physics components
+  artifactKey: Guid(209a764660e0cae419da0bf6f20fd783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Model/Physics components using Guid(209a764660e0cae419da0bf6f20fd783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd3796ba9a72427305c588decc4f9dffd') in 0.0135498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1506 unused Assets / (296.3 KB). Loaded Objects now: 2129.
+Memory consumption went from 90.8 MB to 90.5 MB.
+Total: 49.094500 ms (FindLiveObjects: 1.353200 ms CreateObjectMapping: 0.121700 ms MarkObjects: 46.605900 ms  DeleteObjects: 1.010400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 920.507605 seconds.
+  path: Assets/Exoeriments/Physics and Chemistry
+  artifactKey: Guid(0d2f37afc2114584882ad6e357a3f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exoeriments/Physics and Chemistry using Guid(0d2f37afc2114584882ad6e357a3f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '563d354018f8f126dd2c1a752caf9b85') in 0.0513092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.325266 seconds.
+  path: Assets/Exoeriments/Physics and Chemistry/uiux
+  artifactKey: Guid(a59394004c7593f4a9b5b2cd5c90386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exoeriments/Physics and Chemistry/uiux using Guid(a59394004c7593f4a9b5b2cd5c90386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd9c9069eaa2e06e7298514350c13b623') in 0.0010513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.926104 seconds.
+  path: Assets/Exoeriments/Physics and Chemistry/Scenes
+  artifactKey: Guid(64b970d6cb7d82047a1df35b1b7dde0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exoeriments/Physics and Chemistry/Scenes using Guid(64b970d6cb7d82047a1df35b1b7dde0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4d8010bf8cd548b9ed512b5cc212bc00') in 0.0009828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.639452 seconds.
+  path: Assets/Exoeriments/Physics and Chemistry/materials
+  artifactKey: Guid(2eaf149ee89b7564c824b350ed953037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exoeriments/Physics and Chemistry/materials using Guid(2eaf149ee89b7564c824b350ed953037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '804bdfeccd725c08eb3d382be1f06c7f') in 0.0010008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.343522 seconds.
+  path: Assets/Exoeriments/Physics and Chemistry/materials/Lab
+  artifactKey: Guid(9e020672ef79ebe4abaf1ed8252e64d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exoeriments/Physics and Chemistry/materials/Lab using Guid(9e020672ef79ebe4abaf1ed8252e64d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b72d23183a4f781bc2bcea4e502cb931') in 0.0011806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.407912 seconds.
+  path: Assets/Exoeriments/Physics and Chemistry/materials/Lab/Lab room
+  artifactKey: Guid(1bc77c609b184b147b1c2c122de54374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exoeriments/Physics and Chemistry/materials/Lab/Lab room using Guid(1bc77c609b184b147b1c2c122de54374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '790ba78aad77638e96ce447072955bcf') in 0.0015109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.285863 seconds.
+  path: Assets/Prefeb
+  artifactKey: Guid(f000274ea0fbbc34ab5de34e99785632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefeb using Guid(f000274ea0fbbc34ab5de34e99785632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6b3d03b4210bb2f925db4dd4119a3efb') in 0.0008467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.135263 seconds.
+  path: Assets/materials
+  artifactKey: Guid(664e38780465d164d93ca6d86a565db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials using Guid(664e38780465d164d93ca6d86a565db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '658d1fa03a6e1c4b3dd7080473899668') in 0.0015422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

@@ -2,24 +2,21 @@ using UnityEngine;
 
 public class MoveModelsUpDown : MonoBehaviour
 {
-    public Transform model1;
-    public Transform model2;
-    public Transform model3;
-    public float moveSpeed = 1000f;  
+    public Transform model1; // Reference to the first model
+    public Transform model2; // Reference to the second model
+    public Transform model3; // Reference to the third model
+
+    public float moveSpeed = 0.1f; // Speed of movement
 
     private Vector3 lastMousePosition;
     private bool isDragging = false;
-    private Camera mainCamera;
-
-    void Start()
-    {
-        mainCamera = Camera.main;
-    }
 
     void Update()
     {
 #if UNITY_EDITOR || UNITY_STANDALONE
         HandleMouseInput();
+//#elif UNITY_IOS || UNITY_ANDROID
+//        HandleTouchInput();
 #endif
     }
 
@@ -39,37 +36,43 @@ public class MoveModelsUpDown : MonoBehaviour
         if (isDragging)
         {
             Vector3 deltaMousePosition = Input.mousePosition - lastMousePosition;
+            Vector3 move = new Vector3(0, deltaMousePosition.y * moveSpeed * Time.deltaTime, 0);
 
-            // Only move on Y axis
-            Vector3 move = new Vector3(
-                0, // Remove X movement
-                deltaMousePosition.y * moveSpeed * Time.deltaTime * 10f, // Boost Y speed
-                0
-            );
+            model1.position += move;
+            model2.position += move;
+            model3.position += move;
 
-            MoveWithinCameraBounds(move);
             lastMousePosition = Input.mousePosition;
         }
     }
 
-
-    void MoveWithinCameraBounds(Vector3 move)
+    void HandleTouchInput()
     {
-        Transform[] models = { model1, model2, model3 };
-
-        foreach (Transform model in models)
+        if (Input.touchCount == 1)
         {
-            Vector3 newPosition = model.position + move;
+            Touch touch = Input.GetTouch(0);
 
-            // Get camera bounds in world space
-            Vector3 bottomLeft = mainCamera.ViewportToWorldPoint(new Vector3(0.1f, 0.2f, mainCamera.WorldToScreenPoint(model.position).z));
-            Vector3 topRight = mainCamera.ViewportToWorldPoint(new Vector3(.9f, .8f, mainCamera.WorldToScreenPoint(model.position).z));
+            if (touch.phase == TouchPhase.Began)
+            {
+                isDragging = true;
+                lastMousePosition = touch.position;
+            }
+            else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+            {
+                isDragging = false;
+            }
 
-            // Clamp the model's position directly in world space
-            newPosition.y = Mathf.Clamp(newPosition.y, bottomLeft.y, topRight.y);
+            if (isDragging && touch.phase == TouchPhase.Moved)
+            {
+                Vector3 deltaTouchPosition = (Vector3)touch.position - lastMousePosition;
+                Vector3 move = new Vector3(0, deltaTouchPosition.y * moveSpeed * Time.deltaTime, 0);
 
-            // Apply final position
-            model.position = newPosition;
+                model1.position += move;
+                model2.position += move;
+                model3.position += move;
+
+                lastMousePosition = touch.position;
+            }
         }
     }
 }
