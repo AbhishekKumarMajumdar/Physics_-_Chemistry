@@ -376,6 +376,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.19f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Addressables.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Addressables.ref.dll"
@@ -400,6 +401,15 @@
 "Assets/GradientSkybox/Editor/LinearMultipleColorGradientSkyboxGUI.cs"
 "Assets/GradientSkybox/Editor/LinearThreeColorGradientSkyboxGUI.cs"
 "Assets/GradientSkybox/Editor/LinearTwoColorGradientSkyboxGUI.cs"
+"Assets/UI/DatePicker/Editor/DatePickerDateDrawer.cs"
+"Assets/UI/DatePicker/Editor/DatePickerEditor.cs"
+"Assets/UI/DatePicker/Editor/DatePicker_DateRangeEditor.cs"
+"Assets/UI/DatePicker/Editor/DatePicker_InputFieldEditor.cs"
+"Assets/UI/DatePicker/Editor/DatePicker_MenuItems.cs"
+"Assets/UI/TableLayout/Editor/TableCellEditor.cs"
+"Assets/UI/TableLayout/Editor/TableLayoutEditor.cs"
+"Assets/UI/TableLayout/Editor/TableLayoutWizard.cs"
+"Assets/UI/TableLayout/Editor/TableRowEditor.cs"
 -langversion:9.0
 /deterministic
 /optimize+

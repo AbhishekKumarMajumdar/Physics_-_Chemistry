@@ -14,21 +14,8 @@ public class ModelsManager : MonoBehaviour
     // Master button
     public Button masterButton;
 
-    // Store initial positions and rotations of models
-    private Vector3[] initialPositions;
-    private Quaternion[] initialRotations;
-
     void Start()
     {
-        // Save initial positions and rotations
-        initialPositions = new Vector3[models.Length];
-        initialRotations = new Quaternion[models.Length];
-        for (int i = 0; i < models.Length; i++)
-        {
-            initialPositions[i] = models[i].transform.position;
-            initialRotations[i] = models[i].transform.rotation;
-        }
-
         // Add listeners to all buttons
         for (int i = 0; i < buttons.Length; i++)
         {
@@ -37,7 +24,7 @@ public class ModelsManager : MonoBehaviour
         }
 
         // Add listener to master button
-        masterButton.onClick.AddListener(() => { ShowAllModels(); ResetModels(); });
+        masterButton.onClick.AddListener(ShowAllModels);
 
         // Show all models by default
         ShowAllModels();
@@ -65,16 +52,6 @@ public class ModelsManager : MonoBehaviour
         foreach (GameObject model in models)
         {
             model.SetActive(true);
-        }
-    }
-
-    // Function to reset models to initial positions and rotations
-    void ResetModels()
-    {
-        for (int i = 0; i < models.Length; i++)
-        {
-            models[i].transform.position = initialPositions[i];
-            models[i].transform.rotation = initialRotations[i];
         }
     }
 }
