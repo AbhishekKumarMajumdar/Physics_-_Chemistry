@@ -60,7 +60,7 @@ namespace UI.Tables.Examples
                 textObject.text = "Row " + numberOfRowsAdded;
 
                 // set the value for the toggle element in the second cell (even rows on, odd rows off)
-                var toggleObject = newRow.Cells[1].GetComponentInChildren<Toggle>();
+                var toggleObject = newRow.Cells[1].GetComponentInChildren<UnityEngine.UI.Toggle>();
                 toggleObject.isOn = numberOfRowsAdded % 2 == 0;
 
                 // increment the number of rows added (so that the example doesn't continue forever)

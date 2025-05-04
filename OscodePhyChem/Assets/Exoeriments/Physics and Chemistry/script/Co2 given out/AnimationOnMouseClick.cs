@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.Burst.CompilerServices;
+using Unity.Burst;
 using UnityEngine;
 
 public class AnimationOnMouseClick : MonoBehaviour
